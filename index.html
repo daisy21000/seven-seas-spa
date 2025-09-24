@@ -9,6 +9,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
     <title>Seven Seas Spa</title>
     <style>
+        /* Testimonial images */
+        #testimonials .rounded-circle {
+            width: 80px;
+            height: 80px;
+            object-fit: cover;
+        }
+
         h1,
         h2,
         h3,
@@ -124,6 +131,63 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </section>
+        <section class="container my-5" id="wellness-tips">
+            <h2 class="mb-3">Wellness Tips</h2>
+            <p>Discover simple ways to enhance your wellbeing every day.</p>
+            <ul>
+                <li><strong>Stay hydrated</strong> by drinking plenty of water throughout the day to support your body’s
+                    natural functions and maintain energy levels.</li>
+                <li><strong>Practice mindfulness or meditation</strong> regularly to reduce stress, improve focus, and
+                    promote emotional wellbeing.</li>
+                <li><strong>Maintain a balanced and nutritious diet</strong> by including a variety of fruits,
+                    vegetables, whole grains, and lean proteins in your meals.</li>
+                <li><strong>Get enough sleep</strong> each night for optimal health, aiming for 7-9 hours to allow your
+                    body and mind to rest and recover.</li>
+                <li><strong>Engage in physical activity</strong> such as walking, yoga, or exercise to boost your mood,
+                    increase energy, and support overall wellness.</li>
+            </ul>
+        </section>
+        <section class="container my-5" id="testimonials">
+            <h2 class="mb-4 text-center">Testimonials</h2>
+            <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="d-flex flex-column align-items-center">
+                            <img src="assets/images/john_doe.png" class="rounded-circle mb-3" alt="John Doe">
+                            <p class="fs-5 fst-italic text-center">"Seven Seas Spa has transformed my life! The yoga
+                                classes and nutrition advice are top-notch."</p>
+                            <h5 class="mt-3">— John Doe</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex flex-column align-items-center">
+                            <img src="assets/images/jane_smith.png" class="rounded-circle mb-3" alt="Jane Smith">
+                            <p class="fs-5 fst-italic text-center">"The mental health support I received here was
+                                compassionate and effective. Highly recommended!"</p>
+                            <h5 class="mt-3">— Jane Smith</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex flex-column align-items-center">
+                            <img src="assets/images/emily_johnson.png" class="rounded-circle mb-3" alt="Emily Johnson">
+                            <p class="fs-5 fst-italic text-center">"A wonderful place for wellness. The staff truly care
+                                about your wellbeing."</p>
+                            <h5 class="mt-3">— Emily Johnson</h5>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
         </section>
     </main>

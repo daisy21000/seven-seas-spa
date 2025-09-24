@@ -92,3 +92,8 @@ footer i.bi:hover {
     width: 100px;
     height: 100px;
 }
+
+.services-image {
+    width: 100%;
+    object-fit: cover;
+}
